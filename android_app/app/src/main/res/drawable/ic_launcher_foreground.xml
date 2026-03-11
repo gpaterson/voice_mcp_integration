@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Microphone body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,14c1.66,0,3,-1.34,3,-3L15,5c0,-1.66,-1.34,-3,-3,-3S9,3.34,9,5l0,6c0,1.66,1.34,3,3,3z"/>
+
+    <!-- Microphone stand -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M17,11c0,2.76,-2.24,5,-5,5s-5,-2.24,-5,-5H5c0,3.53,2.61,6.43,6,6.92L11,21h2l0,-3.08c3.39,-0.49,6,-3.39,6,-6.92h-2z"/>
+
+    <!-- Connection dot (signal origin) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M15,12 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+
+    <!-- Connection arc small (r=3, centred at 15,12, quarter-circle up-right) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.3"
+        android:strokeLineCap="round"
+        android:pathData="M15,9 A3,3 0 0 1 18,12"/>
+
+    <!-- Connection arc medium (r=5) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.3"
+        android:strokeLineCap="round"
+        android:pathData="M15,7 A5,5 0 0 1 20,12"/>
+
+    <!-- Connection arc large (r=7) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.3"
+        android:strokeLineCap="round"
+        android:pathData="M15,5 A7,7 0 0 1 22,12"/>
+
+</vector>

@@ -1,0 +1,11 @@
+# Local runtime steering output
+/steering.txt
+
+# Local rust server overrides
+/rust_server/config.local.toml
+
+# Build output
+/rust_server/target/
+/android_app/.gradle/
+/android_app/build/
+/android_app/app/build/
