@@ -1,0 +1,9 @@
+# Rust MCP server settings
+# output_path can be absolute, or relative to repository root.
+output_path = "steering.txt"
+
+# Keep only the most recent N lines in output_path.
+max_steering_lines = 100
+
+# TCP bind address for Android app input.
+bind_address = "0.0.0.0:4000"
