@@ -4,6 +4,12 @@
 # Local rust server overrides
 /rust_server/config.local.toml
 
+# Vosk model (large binary, download separately)
+/android_app/app/src/main/assets/model-en-us/
+
+# Sherpa-ONNX model (large binary, download separately)
+/android_app/app/src/main/assets/sherpa-onnx-model/
+
 # Build output
 /rust_server/target/
 /android_app/.gradle/

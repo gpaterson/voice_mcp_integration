@@ -8,15 +8,78 @@
 
     <Switch
         android:id="@+id/modeSwitch"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:minHeight="56dp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp"
         android:text="Always-on mode"/>
 
     <Button
         android:id="@+id/pttButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="Push to Talk"/>
+
+    <Button
+        android:id="@+id/modeToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Capture Mode: Recognizer"/>
+
+    <TextView
+        android:id="@+id/modeStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Using SpeechRecognizer"
+        android:textSize="13sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STT Engine: "
+            android:textSize="14sp"/>
+
+        <Spinner
+            android:id="@+id/engineSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/engineStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="STT engine: none"
+        android:textSize="13sp"/>
+
+    <Button
+        android:id="@+id/recoveryToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Speech Recovery: ON"/>
+
+    <TextView
+        android:id="@+id/recoveryStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Recovery mode is ON"
+        android:textSize="13sp"/>
 
     <TextView
         android:layout_width="wrap_content"

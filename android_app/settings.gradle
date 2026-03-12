@@ -10,6 +10,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://alphacephei.com/maven/' }
+        maven { url 'https://jitpack.io' }
     }
 }
 
